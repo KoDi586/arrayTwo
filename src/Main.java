@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-//        task1();
-//        task2();
-//        task3();
+        task1();
+        task2();
+        task3();
         task4();
 
     }
@@ -87,8 +87,7 @@ public class Main {
             sum += spend;
         }
         float middleSpend = (float) sum / (float) countDay;
-        System.out.println(sum);
-        System.out.println(middleSpend);
+        System.out.println("Средняя сумма трат за месяц составила " + middleSpend + " рублей");
 
     }
 
